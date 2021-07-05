@@ -73,16 +73,16 @@ width: 100%;
 Height: 150px;
 }
 #space_cat{
-  background-image: url(../Images/space_cat.jpg);
+  background-image: url(https://github.com/BerlicTheHunter/BootCampHomework2/blob/main/Assests/Images/space_cat.jpg?raw=true);
   background-size: cover;
   background-position:bottom;
 }
 #draft{
-  background-image: url(../Images/draft.jpg);
+  background-image: url(https://github.com/BerlicTheHunter/BootCampHomework2/blob/main/Assests/Images/draft.jpg?raw=true);
   background-size: cover;
 }
 #caution_sign{
-  background-image: url(../Images/caution_sign.jpg);
+  background-image: url(https://github.com/BerlicTheHunter/BootCampHomework2/blob/main/Assests/Images/caution_sign.jpg?raw=true);
   background-size: cover;
   background-position: bottom;
 }
