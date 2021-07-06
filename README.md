@@ -9,3 +9,4 @@ Showcased on this page is an "About Me" section with an avitar and a breif discr
 
 ### Screen Shot
 
+![image](https://user-images.githubusercontent.com/81862313/124635100-0e64b700-de55-11eb-9803-558890890987.png)
