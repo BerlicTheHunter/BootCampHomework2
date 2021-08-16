@@ -1,80 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href="./Assests/CSS/style.css"> 
-    <title>Brandon's Info Page</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>Brandon's Info Page</title>
 </head>
 
-<body>
-    <!-- Header with my name and Nav Bar -->
-    <header>
-        <h1> Brandon Sorrell</h1>
-        <nav>
-            <ul>
-                <li><a href="#aboutmelink">About Me</a></li>
-                <li><a href="#worklink">Work</a></li>
-                <li><a href="#contactlink">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <!-- Main Page Info -->
-    <main>
-        <!-- About Me Section -->
-        <article class= "aboutmelink">
-            <h2>About Me</h2>
-            <img src= "Assests/Images/avatar.png"/>
-            <p>I'm Brandon. Chemical Engineer, Business Management Professional, and aspiring Developer. I've spent almost a decade in the oil field ceramics, plastics, and printing industries with experince ranging from process engineering to management. </p>
-        </article>
+<body class="grey">
+  <!-- Header with my name and Nav Bar -->
+  <header class="navbar-fixed">
+      <nav class= "light-blue accent-4">
+          <div class="nav-wrapper">
+              <a href="#" class="brand-logo center">Brandon Sorrell</a>
+              <ul id= "nav-mobile" class="left hide-on-med-and-down">
+                  <li><a href="#aboutmelink" class= "waves-effect btn-small green darken-1">About Me</a></li>
+                  <li><a href="#worklink" class= "waves-effect btn-small green darken-1">Work</a></li>
+                  <li><a href="#contactlink" class= "waves-effect btn-small green darken-1">Contact</a></li>
+              </ul>
+          </div>
+      </nav>
+  </header>
+  <!-- Main Page Info -->
+  <main class= "container">
+    <!-- About Me Section -->
+    <article id="aboutmelink" class= "row">
+        <h2>About Me</h2>
+        <div class= "row white">
+          <img class= "col s12 l3" src= "Assests/Images/avatar.png"/>
+          <p class= "col s12 l9 flow-text">I'm Brandon. Chemical Engineer, Business Management Professional, and aspiring Developer. I've spent almost a decade in the oil field ceramics, plastics, and printing industries with experince ranging from process engineering to management. </p>
+          <div class="row white">
+          <a class="col s4 l3 center-align hoverable" href="#"><img src= "Assests/Images/ResumeIcon.png"/></a>
+          <a class="col s4 l3 center-align hoverable" href="https://github.com/BerlicTheHunter" target="_blank" rel="noopener noreferrer"><img src= "Assests/Images/GitHub-Mark-64px.png"/></a>
+          <a class="col s4 l3 center-align hoverable" href="https://www.linkedin.com/in/brandon-sorrell-a3988797" target="_blank" rel="noopener noreferrer"><img src= "Assests/Images/LinkedIn64.png"/></a>
+          </div>
+        </div>
+        
+    </article>
 
-        <!-- Work Expo with Links -->
-        <article class= "work" id= "worklink">
-            <h2> Work </h2>
-            <div>
-                <section class= "big"> 
-                    <a href= "https://berlicthehunter.github.io/BootCampHomework1/" >
-                        <img src= "https://github.com/BerlicTheHunter/BootCampHomework1/blob/main/assets/images/digital-marketing-meeting.jpg?raw=true" alt= "Code Refactor"/>
-                        <h3>Code Refractor</h3>
-                    </a>
-                </section>
-                
-                <section class= small>
-                    <a href= "https://scratch.mit.edu/projects/542163452/" id= "space_cat">
-                        <img src= "Assests/Images/space_cat.jpg" alt= "Space Cat"/>
-                        <h3>Space Cat!</h3>
-                    </a>
-                </section>
-               
-                <section class= small>
-                    <a>
-                        <img src= "Assests/Images/draft.jpg" alt= "Drafting Table"/>
-                        <h3>Comming Soon</h3>
-                    </a>
-                </section>
-                
-                <section class= "small">
-                    <a>
-                        <img src= "Assests/Images/caution_sign.jpg" alt= "Caution Sign"/>
-                        <h3>Under Construction</h3>
-                    </a>
-                </section>
+    <!-- Work Expo with Links -->
+    <article class= "work" id= "worklink">
+      <h2> Work </h2>
+      <div class= "row white">
+        
+        <div class= "col s12 l12"> 
+          <div class="card medium hoverable">
+            <div class="card-image">
+              <a class="hoverable" href="https://skylar-harwell.github.io/Movie_Project/" target="_blank" rel="noopener noreferrer">
+                <img src= "Assests/Images/GeorgiaScreen.png" alt= "Georgia Screen Into">
+              </a>
             </div>
-        </article>
+            <div class="card-content">
+              <div class="col l9">
+                <span class="card-title">Georgia Screen</span>
+                <p>Movie Info Search Project</p>
+              </div>
+              <a class="col l3 hoverable right" href="https://github.com/Skylar-Harwell/Movie_Project" target="_blank" rel="noopener noreferrer"><img src= "Assests/Images/GitHub-Mark-64px.png"/></a>
+            </div>
+          </div>
+        </div>     
+        
+        <div class= "col s12 l4"> 
+          <div class="card small hoverable">
+            <div class="card-image">
+              <a class="hoverable" href="https://berlicthehunter.github.io/PasswordGen/" target="_blank" rel="noopener noreferrer">
+                <img src= "Assests/Images/PasswordGen.png" alt= "Password Genereator">
+              </a>
+            </div>
+            <div class="card-content">
+              <div class="col l9">
+                <span class="card-title">Password Generator</span>
+                <p>Need a New Password?</p>
+              </div>
+              <a class="col l3 hoverable right" href="https://github.com/BerlicTheHunter/PasswordGen" target="_blank" rel="noopener noreferrer"><img src= "Assests/Images/GitHub-Mark-64px.png"/></a>
+            </div>
+          </div>
+        </div>
+        
+        
+        <div class= "col s12 l4"> 
+          <div class="card small">
+            <div class="card-image">
+              <a class="hoverable" href="https://berlicthehunter.github.io/WorkEventPlanner/" target="_blank" rel="noopener noreferrer">
+                <img src= "Assests/Images/Scheduler.png" alt= "Code Refactor">
+              </a>
+            </div>
+            <div class="card-content">
+              <div class="col l9">
+                <span class="card-title">Work Scheduler</span>
+                <p>Plan Out Your Day</p>
+              </div>
+              <a class="col l3 hoverable right" href="https://github.com/BerlicTheHunter/WorkEventPlanner" target="_blank" rel="noopener noreferrer"><img src= "Assests/Images/GitHub-Mark-64px.png"/></a>
+            </div>
+          </div>
+        </div>
+        
+        <div class= "col s12 l4"> 
+          <div class="card small">
+            <div class="card-image">
+              <a class="hoverable" href="https://berlicthehunter.github.io/WeatherDash/" target="_blank" rel="noopener noreferrer">
+                <img src= "Assests/Images/WeatherDash.png" alt= "Weather Dashbored">
+              </a>
+            </div>
+            <div class="card-content">
+              <div class="col l9">
+                <span class="card-title">Weather Dashboard</span>
+                <p>Up to Date Weather Forcasts</p>
+              </div>
+              <a class="col l3 hoverable right" href="https://github.com/BerlicTheHunter/WeatherDash" target="_blank" rel="noopener noreferrer"><img src= "Assests/Images/GitHub-Mark-64px.png"/></a>
+            </div>
+          </div>
+        </div>
 
-        <!-- Contact Info Bar: left our actual info -->
-        <article class= "contact" id= "contactlink">
-            <h2>Contacts</h2>
-            <ul>
-                <li>gmail</li>
-                <li>Linkedin</li>
-                <li>(555)555-5555</li>
-            </ul>
-        </article>
-   
-    </main>
+      </div>
+    </article>
 
+    <!-- Contact Info Bar: left our actual info -->
+    <article class= "contact" id= "contactlink">
+        <h2>Contacts</h2>
+        <ul>
+            <li>gmail</li>
+            <li>Linkedin</li>
+            <li>(555)555-5555</li>
+        </ul>
+    </article>
+  
+  </main>
+
+  <!-- Javascript Links Go Here -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 
 </html>
