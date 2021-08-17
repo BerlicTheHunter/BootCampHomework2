@@ -13,6 +13,9 @@ Changes:
 * Added in icons with links to Linkedin, Github, and Email.  Depricated contact section
 * Added in 4 current projects and improved responsiveness
 
+### Link
+[Developer Portfolio](https://berlicthehunter.github.io/CodingPortfolio/)
+
 ### Screen Shot
 
 ![image](Assests/Images/ProjectScreenshotV2.png)
